@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "role": "sole approved golden master v2 for book-video-daily-v9",
+  "version": "v2",
+  "frozen_at": "2026-08-13T00:00:00+08:00",
+  "source_run_id": "20260809-2000-wo-men-nei-xin-de-chong-tu",
+  "source_book": {
+    "title": "我们内心的冲突",
+    "author": "[美]卡伦·霍妮"
+  },
+  "final_mp4": {
+    "path": "../../../examples/final-with-recent-8-intro-plain-single-line-title.mp4",
+    "sha256": "3207899ece95c87dc958c360a87cc0a8721ffeac95ab999ffe7ea6174b2dc697",
+    "duration_seconds": 27.989,
+    "body_start_seconds": 4.833,
+    "video": {
+      "codec": "h264",
+      "profile": "High",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "color_space": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "profile": "LC",
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  },
+  "segments": {
+    "intro": {
+      "path": "../../../examples/intro-template.mp4",
+      "sha256": "cc1135f62ba46a512a40220626e44a55359043479dcc0b1f653cf57d54da50d6",
+      "duration_seconds": 4.8
+    },
+    "transition": {
+      "path": "../../../examples/single-frame-transition.mp4",
+      "sha256": "3715f7680cec79b1f2922a4dff62d18232bb93076e9ed1b12cfb5496f8710220",
+      "duration_seconds": 0.033
+    },
+    "body": {
+      "path": "../../../examples/body-final.mp4",
+      "sha256": "d31a220d0e96ab936447fe9ffd9576f416764eb874c09b4d1211707fdd04fb55",
+      "duration_seconds": 23.133333
+    }
+  },
+  "bundled_sources": {
+    "body/index.html": "5167ce649207218996cf5212134339453e7199661c2fdff49f73550b347ad789",
+    "body/index.motion.json": "f5d629e851d7cc57ba15fbe5b10cf699c8f392b87e5ff286fa5428a9c4ae5866",
+    "intro/index.html": "f00ab541a5d67fc7629735645548f5da1c4ef339689db83350d1cce056ab3cf9",
+    "intro/index.motion.json": "d03e6a922fc2742c872d3ef523984c505060ca1dd0dfc2e88ed2b752c96ef66a",
+    "qa/final-contact-sheet.png": "8363470f8ab3b305fbb425c1b7b12fc0c8c2fe99f1c29e3d9474d4beecaf725a",
+    "qa/intro-sequence-01-24.png": "25176a26f96a93a71c2d5c8a0817cf765ec4740993a59388cf70adebc95386bb"
+  },
+  "qa": {
+    "v9_contract_error_count": 0,
+    "final_mp4_voice_si_sdr_db": 27.1386,
+    "final_body_window_asr_coverage": 0.959,
+    "intro_asr_coverage": 1.0
+  },
+  "open_source_note": "Relative paths resolve from this manifest file; examples are stored at repository root examples/."
+}

@@ -1,0 +1,4 @@
+d31a220d0e96ab936447fe9ffd9576f416764eb874c09b4d1211707fdd04fb55  examples/body-final.mp4
+3207899ece95c87dc958c360a87cc0a8721ffeac95ab999ffe7ea6174b2dc697  examples/final-with-recent-8-intro-plain-single-line-title.mp4
+cc1135f62ba46a512a40220626e44a55359043479dcc0b1f653cf57d54da50d6  examples/intro-template.mp4
+3715f7680cec79b1f2922a4dff62d18232bb93076e9ed1b12cfb5496f8710220  examples/single-frame-transition.mp4

@@ -1,0 +1,28 @@
+{
+  "duration": 23.125,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": ".identity-title",
+      "bySec": 1.1
+    },
+    {
+      "kind": "appearsBy",
+      "selector": ".identity-author",
+      "bySec": 1.2
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#book-identity"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#cg-c001"
+    },
+    {
+      "kind": "keepsMoving",
+      "withinSelector": "#book-video",
+      "maxStaticSec": 2.2
+    }
+  ]
+}

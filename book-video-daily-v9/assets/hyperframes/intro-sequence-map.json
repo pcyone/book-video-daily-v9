@@ -1,0 +1,32 @@
+{
+  "fps": 30,
+  "intro_duration_seconds": 4.8,
+  "transition_duration_seconds": 0.033,
+  "body_start_seconds": 4.833,
+  "sequences": [
+    {"sequence": 1, "frame": 0, "role": "scene_1"},
+    {"sequence": 2, "frame": 2, "role": "scene_1_hold"},
+    {"sequence": 3, "frame": 3, "role": "keyword_cutout_scene_2"},
+    {"sequence": 4, "frame": 60, "role": "keyword_cutout_scene_2_hold"},
+    {"sequence": 5, "frame": 75, "role": "center_reveal"},
+    {"sequence": 6, "frame": 78, "role": "center_reveal"},
+    {"sequence": 7, "frame": 81, "role": "center_reveal"},
+    {"sequence": 8, "frame": 84, "role": "center_reveal"},
+    {"sequence": 9, "frame": 87, "role": "center_reveal"},
+    {"sequence": 10, "frame": 90, "role": "center_reveal"},
+    {"sequence": 11, "frame": 93, "role": "center_reveal"},
+    {"sequence": 12, "frame": 96, "role": "center_reveal"},
+    {"sequence": 13, "frame": 100, "role": "scene_2_full"},
+    {"sequence": 14, "frame": 104, "role": "cover_1"},
+    {"sequence": 15, "frame": 108, "role": "cover_2"},
+    {"sequence": 16, "frame": 112, "role": "cover_3"},
+    {"sequence": 17, "frame": 116, "role": "cover_4"},
+    {"sequence": 18, "frame": 120, "role": "cover_5"},
+    {"sequence": 19, "frame": 124, "role": "cover_6"},
+    {"sequence": 20, "frame": 127, "role": "cover_7"},
+    {"sequence": 21, "frame": 132, "role": "current_cover_lock_ripple_start"},
+    {"sequence": 22, "frame": 138, "role": "ripple_expand"},
+    {"sequence": 23, "frame": 143, "role": "ripple_settle"},
+    {"sequence": 24, "frame": 145, "role": "body_first_frame"}
+  ]
+}

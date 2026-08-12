@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "role": "superseded historical golden master retained for reference; V2 is the active open-source golden master",
+  "final_mp4": {
+    "path": "../../../examples/legacy-final-with-recent-8-intro-plain-single-line-title.mp4",
+    "sha256": "5109b2d4afb0e5fb0426ee220ca3b2779b229bba836f947e80fa8ac9004dede9",
+    "duration_seconds": 30.186,
+    "body_start_seconds": 4.833,
+    "video": {
+      "codec": "h264",
+      "profile": "High",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "color_space": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "profile": "LC",
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  },
+  "segments": {
+    "intro": {
+      "path": "../../../examples/legacy-intro-template-sequence-remap-ripple-v7.mp4",
+      "sha256": "6562ed685c28cdf6f910042bea26c36d1864839f844ef6daa04ccc55e00e6280",
+      "duration_seconds": 4.8
+    },
+    "transition": {
+      "path": "../../../examples/legacy-soft-transition.mp4",
+      "sha256": "c9e328f38234e4c1be131f3fe128fa42ffa51572558ccb6f7658e0111fd13b52",
+      "duration_seconds": 0.033
+    },
+    "body": {
+      "path": "../../../examples/legacy-body-final-plain-single-line-title.mp4",
+      "sha256": "13b5db8160d26f4a217b8291de344e516d24dea4fedcb417c13fb8d802c75ec3",
+      "duration_seconds": 25.333333
+    }
+  },
+  "bundled_sources": {
+    "body/index.html": "75d7cab3cf448bc12015639e2be1cab5107f38d73e56e1fd53c4dc59c3d90655",
+    "body/index.motion.json": "b5008aee2f3e578161af4f8c5bcf50054c082218ade35020700d13cfd3b63d49",
+    "intro/index.html": "242d3e3c1f01c2393d9ebe6e1738f41d1e47e246d95f0de7fc2f30b48d211cca",
+    "intro/index.motion.json": "d03e6a922fc2742c872d3ef523984c505060ca1dd0dfc2e88ed2b752c96ef66a",
+    "qa/final-contact-sheet.png": "08646018018553df5b3bda1355d3d847fb13da2a592982293c55a055979b7989",
+    "qa/intro-sequence-01-24.png": "607c7c4a9bf06e09457fd52cf57df67c91a1e0fac9df80164fbdbb3a73b1c08e"
+  }
+}

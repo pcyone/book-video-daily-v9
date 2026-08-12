@@ -1,0 +1,24 @@
+{
+  "duration": 4.8,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": ".cutout-stage",
+      "bySec": 0.15
+    },
+    {
+      "kind": "appearsBy",
+      "selector": ".current",
+      "bySec": 4.41
+    },
+    {
+      "kind": "appearsBy",
+      "selector": ".current .locked-meta",
+      "bySec": 4.51
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": ".current .cover-card-wrap"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "每日图书视频 V9"
+  short_description: "按 V2 黄金成片、四次确认与动态八本片头制作日更视频"
+  default_prompt: "使用 $book-video-daily-v9 推荐并制作今天的一本图书号视频。"
