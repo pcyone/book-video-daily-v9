@@ -2,6 +2,28 @@
 
 Codex Skill for producing the V9 daily Chinese vertical book-video workflow with four ordered confirmations, fixed narration/ASR QA gates, HyperFrames body rendering, and the V2 recent-8 Ripple Waves intro golden master.
 
+## Documentation
+
+- [Installation tutorial](docs/INSTALLATION.md): install the Skill into Codex, verify the V2 golden master, and prepare required companion tools.
+- [Usage tutorial](docs/USAGE_TUTORIAL.md): run a daily book-video job, handle the four approval points, recover an interrupted run, and understand the generated artifacts.
+
+## Quick Install
+
+From Codex, ask:
+
+```text
+Install the skill from https://github.com/pcyone/book-video-daily-v9/tree/main/book-video-daily-v9
+```
+
+Manual install:
+
+```bash
+git clone https://github.com/pcyone/book-video-daily-v9.git
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -R book-video-daily-v9/book-video-daily-v9 "${CODEX_HOME:-$HOME/.codex}/skills/book-video-daily-v9"
+python3 "${CODEX_HOME:-$HOME/.codex}/skills/book-video-daily-v9/scripts/verify_golden_master.py"
+```
+
 ## Contents
 
 - `book-video-daily-v9/`: the Codex skill folder.
@@ -28,6 +50,12 @@ Verify after cloning:
 
 ```bash
 python3 book-video-daily-v9/scripts/verify_golden_master.py
+```
+
+Expected result:
+
+```text
+"ok": true
 ```
 
 ## License
